@@ -1,0 +1,55 @@
+body {
+  background-color: LightGrey;
+}
+#title {
+  font-size: 5vh;
+  float : right;
+  color: #ff0000;
+  font-family: helvetica, sans-serif;
+}
+#brain_img {
+  float: right;
+  height: 10vh;
+}
+
+.content_main{
+  clear : both;
+  display : grid;
+  height: 80vh;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap : 15px;
+  padding : 10px;
+}
+
+#content1 {
+  background-color: LightBlue;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#content2 {
+  background-color: LightGoldenRodYellow ;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#content3 {
+  background-color: HoneyDew ;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#content4 {
+  background-color: MintCream;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
