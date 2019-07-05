@@ -1,5 +1,6 @@
 body {
   background-color: LightGrey;
+  font-family: helvetica, sans-serif;
 }
 #title {
   font-size: 5vh;
@@ -9,7 +10,7 @@ body {
 }
 #brain_img {
   float: right;
-  height: 10vh;
+  height: 7vh;
 }
 
 .content_main{
