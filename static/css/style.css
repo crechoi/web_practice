@@ -15,11 +15,12 @@ body {
 
 #home_content{
   position: relative;
-  width: 110%;
-  height: 200%;
+  width: 130%;
+  height: 80vh;
   left: 100%;
   text-align: center;
-  border: 1px solid black;
+  background-color: LightGoldenRodYellow ;
+
 }
 #aida_home {
   display: block;
