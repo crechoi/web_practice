@@ -8,9 +8,24 @@ body {
   color: #ff0000;
   font-family: helvetica, sans-serif;
 }
-#brain_img {
+#aida_img {
   float: right;
   height: 7vh;
+}
+
+#home_content{
+  position: relative;
+  width: 110%;
+  height: 200%;
+  left: 100%;
+  text-align: center;
+  border: 1px solid black;
+}
+#aida_home {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .content_main{
