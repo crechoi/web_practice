@@ -1,5 +1,11 @@
 {% extends "layout.html" %}
 
+
+{%block top_desc_content%} 
+<div class = "speech-bubble"><h2>Result of iris data. Next step is choosing ML model!</h2></div>
+{% endblock%}
+
+
 {%block content %}
 
 
@@ -13,9 +19,10 @@
 
 </div>
 <div id="content4">
-    <li> <a href = "index.py?preproc=donePreproc"> Preprocessing - {preproc}</a></li>
-    <li> <a href = "index.py?model=doneModel"> Model Selection - {model}</a></li>
-    <li> <a href = "index.py?result=done"> Result</a></li>
+	<h2>Choose Model here!!</h2>
+	<h3><a href = clustering> K-means </a></h3>
+	<h3><a href = cnn> CNN </a></h3>
+	
 </div>
 
-{%endblock content%}
+{%endblock%}

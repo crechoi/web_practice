@@ -1,11 +1,14 @@
 {% extends "layout.html" %}
 
+
+{%block top_desc_content %} 
+<div class = "speech-bubble"><h2>Machine Learning starts from choosing Data</h2></div>
+{% endblock%}
+
+
 {%block content %}
-
-
-
 <div id = "home_content">
-	<img id = "aida_home" src="https://3.bp.blogspot.com/-z7NmMxtIvbk/WykiEbSBbhI/AAAAAAAgYQ8/S8BYwsuwlfQX925DRyxCpX-N3NvmLWOHQCLcBGAs/s1600/AW1237939_00.gif">
+	<img id = "aida_home" src="http://media-s3-us-east-1.ceros.com/mckinsey/images/2018/08/06/47c7c3b841415075b120f407797c3858/spot-1.png">
 	<p style = "font-size:4vh;">Which Data do you want to check?</p>
 
 	{% for cur_data in posts%}
@@ -13,4 +16,4 @@
 	{% endfor %}
 
 </div>
-{%endblock content%}
+{%endblock%}

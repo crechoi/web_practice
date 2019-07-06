@@ -20,6 +20,16 @@ def home():
 def iris_home():
 	return render_template("iris_home.html", posts = iris_data)
 
+
+@app.route('/clustering', methods = ['GET', 'POST'])
+def iris_clustering():
+	return render_template("iris_clustering.html")
+
+@app.route('/iris', methods = ['GET', 'POST'])
+def iris_cnn():
+	return render_template("iris_cnn.html", posts = iris_data)
+
+
 if __name__ == "__main__":
   app.run(debug = True)
 

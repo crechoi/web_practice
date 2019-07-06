@@ -10,14 +10,30 @@ body {
 }
 #aida_img {
   float: right;
-  height: 7vh;
+  height: 10vh;
 }
+.speech-bubble {
+  float:right;
+  text-align: center;
+  padding-right: 2vh;
+  padding-left: 2vh;
+  position: relative;
+  background: #00aabb; 
+  border-radius: 1vh; 
+} 
+.speech-bubble:after { 
+  content: ''; 
+  position: absolute; right: 0; top: 50%; 
+  width: 0; height: 0; border: 15px solid transparent; 
+  border-left-color: #00aabb; border-right: 0; 
+  border-bottom: 0; margin-top: -19px; margin-right: -15px; }
 
 #home_content{
   position: relative;
+  padding : 10vh;
   width: 130%;
-  height: 80vh;
-  left: 100%;
+  height: 50vh;
+  left: 75%;
   text-align: center;
   background-color: LightGoldenRodYellow ;
 
@@ -45,6 +61,7 @@ body {
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2;
+  padding :1vh;
 }
 
 #content2 {
@@ -53,6 +70,7 @@ body {
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
+  padding :1vh;
 }
 
 #content3 {
@@ -61,6 +79,7 @@ body {
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
+  padding :1vh;
 }
 
 #content4 {
@@ -69,4 +88,5 @@ body {
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 3;
+  padding :1vh;
 }
